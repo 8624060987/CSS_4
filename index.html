@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css/Assesment4</title>
+    <style type="text/css">
+    .main{
+        width: 100%;
+        min-height: 1000px;
+    }
+    .row1{
+        font-size: 23px;
+        font-weight: bolder;
+        text-decoration: underline;
+        text-align: center;
+        width: 100%;
+        min-height:25px;
+        flex-wrap: wrap;
+        background:linear-gradient(to right, rgb(255,0,0), rgba(15, 182, 15, 0.837), yellow);
+    }
+    .row2{
+        
+        width: 60%;
+        min-height:55px;
+        margin: auto;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+        background-color:lightblue;
+        border:4px red solid;
+        border-radius: 15px;
+    }
+    .row2c{
+        width: 30%;
+        min-height: 55px;
+        margin: auto;
+        font-size: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: -15px;
+        font-weight: bold;
+
+    }
+    .row3{
+        width: 100%;
+        min-height: 110px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        border:2px red solid;
+        border-radius: 15px;
+        background-color: aquamarine;
+    }
+    .row3c{
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+    .box1{
+        width: 30%;
+        min-height: 50px;
+        padding-top: 3px;
+        font-size: 13px;
+        flex-wrap: wrap;
+        text-align: center;
+        font-weight: bold;
+        border: 2px green solid;
+        border-radius: 15px;
+        float: left;
+        margin-left: 22px;
+        margin-right: 22px;
+        overflow: hidden;
+    }
+    .box2{
+        width: 30%;
+        min-height: 50px;
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        flex-wrap: wrap;
+        border: 2px green solid;
+        border-radius: 15px;
+        float: left;
+        margin-left: 34.6%; 
+        margin-top: 1px;
+    }
+    .row4{
+        width: 100%;
+        height: 40px;
+        flex-wrap: wrap;
+        background: radial-gradient(yellow, #ff0000);
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-align: center;
+    }
+    .row5{
+        width: 100%;
+        height: 300px;
+        flex-wrap: wrap;
+        background: radial-gradient(blue,rgb(10, 245, 174));
+        margin-top: 20px;
+        border:2px green solid;
+    }
+    .r5con
+    {
+        width: 15%;
+        height: 115px;
+        text-align: center;
+        font-weight: bold;
+        flex-wrap: wrap;
+        background-color: rgb(241, 241, 71);
+        border: 2px red solid;
+        border-radius: 15px;
+        color: #a40505;
+        text-decoration: underline;
+        float: left;
+        margin-top:93px;
+        margin-left:60px;
+        margin-right: 60px;
+    }
+    .main_container{
+        width:auto;
+        height: 300px;
+       padding: 10px;
+       flex-wrap: wrap;
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 30% 30% 30% 9%;
+       /* column-gap: 10px;
+        row-gap: 10px; */
+        grid-gap: 10px 10px; 
+        text-align: center;
+    }
+    .main_container div{
+        width: auto auto auto auto;
+        height: auto;
+        flex-wrap: wrap;
+        display: grid;
+      /*  border: 2px solid black; */
+        color: WHITE;
+    }
+    .r1{
+        height: 20px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        height: 50px;
+        flex-wrap: wrap;
+        background-color: #eb1e39;
+        font-size: 23px;
+        font-weight: bolder;
+      
+    }
+    #r2{
+        grid-row-start: 2;
+        grid-row-end: 4 ;
+        background-color: rgb(126, 243, 126);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+      /*  text-indent: 80px;*/
+    }
+    #r3{
+        grid-row-start: 2;
+        grid-row-end: 4 ;
+        background-color: rgb(65, 168, 212);
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #r4{
+        grid-row-start: 2;
+        grid-row-end: 4 ;
+        background-color: blue;
+        font-size: 25px;
+        text-align: left;
+    }
+    #r5{    
+        grid-row-start:2;
+        grid-row-end:7 ;
+        background-color: black;
+        font-size: 19px;
+        text-decoration: underline;
+    }  
+    #r6{
+        grid-row-start: 4;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: rgb(240, 166, 70);
+        font-size: 19px;
+        text-align: left;
+    }  
+    #r7{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background-color: rgb(92, 219, 176);
+        color: black;
+        font-weight: bolder;
+        font-size: 25PX;
+    }
+
+    
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row1">
+            OUR OFFERINGSs
+        </div>
+        <br>
+        <div class="row2">
+            <div class="row2c" align="center">
+            <ul>
+                <li>home</li>
+                <li>contact us</li>
+                <li>review us</li>
+            </ul>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="row3c">
+                <div class="box1">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, dolore? Deleniti animi enim eveniet maiores! Saepe, sequi? Eligendi voluptatem, molestiae, adipisci tenetur quae eos ducimus ab, itaque fugit maxime rem.
+                </div>
+                 <div class="box1">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, placeat saepe. Dicta perspiciatis, dolorem doloribus est labore modi quaerat perferendis possimus aut architecto, ipsum itaque odit quae harum laudantium. Quidem.
+                </div>
+                <div class="box1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sunt ratione quod sequi consequuntur ea sapiente corrupti laudantium recusandae odit natus exercitationem, ipsum explicabo libero vel facere maiores repellendus ad.
+                </div>
+            </div>
+            <div class="row3c">
+                <div class="box2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae sunt eos amet ipsa eligendi voluptates distinctio commodi accusantium vero. Dignissimos alias doloribus neque voluptate eaque ipsam saepe ut, fugiat cum.
+                </div>
+            </div>  
+        </div>  
+        <div class="row4">
+            our top performer in jee advance.
+        </div>
+        <div class="row5">
+            <div CLASS="r5con">
+                <table cellspacing="13px" align="center">
+                    <tr>
+                        <td>AKASH GUPTA</td>
+                    </tr>
+                    <tr>
+                        <td>213/300</td>
+                    </tr>
+                    <tr>
+                        <td>GOT IIT BOMBAY.</td>
+                    </tr>
+                </table>
+            </div>
+            <div CLASS="r5con">
+                <table cellspacing="13px" align="center">
+                    <tr>
+                        <td>RISHAV</td>
+                    </tr>
+                    <tr>
+                        <td>203/300</td>
+                    </tr>
+                    <tr>
+                        <td>GOT DELHI.</td>
+                    </tr>
+            </table>
+            </div>
+            <div CLASS="r5con">
+                <table cellspacing="13px" align="center">
+                    <tr>
+                        <td>GAVRAV RAJ</td>
+                    </tr>
+                    <tr>
+                        <td>192/300</td>
+                    </tr>
+                    <tr>
+                        <td>GOT IIT ROORKEE.</td>
+                    </tr>
+            </table>
+            </div>
+            <div CLASS="r5con">
+                <table cellspacing="13px" align="center">
+                    <tr>
+                        <td>SHIVAM CHAUHAN</td>
+                    </tr>
+                    <tr>
+                        <td>176/300</td>
+                    </tr>
+                    <tr>
+                        <td>GOT IIT KANPUR.</td>
+                    </tr>
+            </table>
+
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="r1">
+                THE BEST PLACE FOR THE BEST CAREER
+            </div>
+            <div id="r2">
+                You can ask doubt <br> in our boudt section.
+            </div>
+            <div id="r3">
+                Get 30% Off by applying code while purchasing course.
+            </div>
+            <div id="r4">
+                We assure that your hard work & our teaching will give bright result.
+            </div>
+            <div id="r5">
+                <ol><li>Study Material</li>
+                    <li>Tests</li>
+                    <li>Doubt Mentors </li>
+                    <li>Lecture</li>
+                    <li>Our Subscription</li>
+                    <li>Our Faculty</li>
+                </ol>
+            </div>
+            <div id="r6">
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum impedit, 
+               consectetur vero ea ipsum placeat commodi, ullam reiciendis id quis excepturi 
+               tenetur recusandae ratione laboriosam, quaerat praesentium aspernatur quod dolor.
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, sapiente eos. 
+               Consectetur magni explicabo omnis cumque non voluptate, illo odio tempore beatae, 
+               at eius sed? A ratione consequatur reprehenderit tempore!
+            </div>
+            <div id="r7">
+                ALL THE BEST !
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
